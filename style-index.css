@@ -1,0 +1,66 @@
+body {
+    font-size: 100%;
+    font-family: Vazir;
+    min-height: 100vh;
+}
+
+
+/* Colors and backgrounds */
+
+#title:hover {
+    text-decoration: none !important;
+}
+
+.navbarcolor {
+    background-color: rgb(56, 56, 109) !important;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: rgb(215, 219, 255) !important;
+    border-bottom: 1px solid rgb(215, 219, 255);
+
+}
+
+.btn-signup {
+    color: white;
+    background-color: rgb(56, 56, 109) !important;
+    border: 1px solid rgb(56, 56, 109) !important;
+}
+
+.btn-signup:hover {
+    color: rgb(56, 56, 109) !important;
+    background-color: white !important;
+}
+
+.btn-search {
+    background: rgb(44, 127, 252);
+    color: white;
+}
+
+.btn-search:hover {
+    background: rgb(14, 109, 252);
+    color: white;
+}
+
+/* Raius and Sizing */
+
+.radius {
+    border-radius: 4px !important;
+}
+
+.jumbotron {
+    padding: 4rem;
+}
+
+@media (min-width : 768px) {
+    .jumbotron {
+        padding: 6rem;
+    }
+    
+}
